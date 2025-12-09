@@ -37,3 +37,6 @@ export const config = {
     '/(api|trpc)(.*)',
   ],
 };
+
+//switching the runtime in node version for the deployment in vercel which is previously exceeding 1MB basic plan.
+export const runtime = "nodejs"; 

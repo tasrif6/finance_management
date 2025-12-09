@@ -12,7 +12,6 @@ const eslintConfig = defineConfig([
       ...nextPlugin.configs.recommended.rules,
     },
   },
-])
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
