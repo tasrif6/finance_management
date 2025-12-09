@@ -46,12 +46,14 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^16.0.8",
     "@prisma/client": "^5.22.0",
     "@react-email/preview-server": "^5.0.5",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.5",
+    "eslint-config-prettier": "^10.1.8",
     "prisma": "^5.22.0",
     "react-email": "5.0.5",
     "tailwindcss": "^4",
