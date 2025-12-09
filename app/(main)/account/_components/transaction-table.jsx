@@ -175,7 +175,6 @@ export default function TransactionTable({ transactions }) {
         toast.error(deleted.error || "Failed to delete transactions");
       } else {
         toast.success("Transactions deleted successfully");
-        setSelectedIds([]);
         // Refresh the page data so deleted transactions disappear
         router.refresh();
       }
